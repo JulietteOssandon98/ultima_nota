@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;1,600;1,700&display=swap');
+
+
+body{
+	font-family: josefin sans;
+}
+
+.text-italic{
+    font-weight: 600;
+    font-style: italic bold;	
+}
+
+.header {
+    background: #ffffff;
+}
+
+.header .navbar {
+    background: #ffffff;
+    color: #ffffff;
+}
+
+.header .navbar .a.navbar-brand{
+    color: #000000;
+}
+
+.header .navbar-nav .nav-link {
+    color: #04335A
+}
+
+.header .navbar-nav .nav-link:hover {
+    color: #0C89F0;
+    font-size: 20px;
+}
+
+.card{
+	background-color: rgba(255,255,255,0.60)
+}
+
+.img-fondo {
+	background-image: url("../img/tobyy.jpg");
+    margin-bottom: 40px;
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+}
+
+.boton {
+    font-weight: 700;
+    font-style: italic bold;
+}
+
+.img-fondo2 {
+    background-image: url(../img/segunda.jpg);	
+	background-position: center center;
+	margin-bottom: 40px;
+    width: 700px;
+    height: 300px;
+}
+
+.tarjeta {
+    background-image: url("../img/jack.jpg");
+    background-position: center center;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 40px;
+	width: 350px;
+	height: 570px;
+	padding: 80px;
+}
+
+.formulario {
+	background-image: url(../img/blue-snow.png);
+	background-position: center center;
+    margin-bottom: 40px;
+    width: 600px;
+    padding: 50px;
+}
+
+.separacion{
+	margin-bottom: 30px;
+}
+
+.boton{
+  font-weight: 700;
+  font-style: bold italic;
+}
+
+.footer {
+  box-sizing: border-box;
+  width: 100%;
+  height: 10em;
+  background-image: url(../img/piedepagina.jpg);
+  background-position: center top;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .img-fondo {
+        background-image: absolute;
+    }
+
+    .tarjeta{
+        margin-left: 180px;
+    }
+
+    .formulario{
+        margin-left: 60px;
+    }
+}
+
