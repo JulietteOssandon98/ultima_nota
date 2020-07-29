@@ -25,13 +25,13 @@ y voluntarios para ayudar en la misma fundación.
 
 para poder subir nuestra página web, tenemos que seguir los siguientes pasos.
 
-***sh
+```sh
 $ abrir conneción con hosting
 
 $ arrastrar carpeta public_html al hosting
 
 $ ir a la url http://gsf.temp.domains/~jossandon/
-*** 
+```
 
 
 ### Licencia
