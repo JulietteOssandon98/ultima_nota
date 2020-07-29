@@ -10,7 +10,6 @@ y voluntarios para ayudar en la misma fundación.
 ### TODO
 
 - me falto una mejor elección de imagenes
--
 
 ### tecnologias usadas
 
